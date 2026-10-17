@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12305e"/><stop offset="1" stop-color="#081529"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f3d58b"/><stop offset="1" stop-color="#c99a2e"/></linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="url(#bg)"/>
+  <!-- "A" shaped like a rooftop/tower, with a window cut-out -->
+  <path fill="url(#gold)" fill-rule="evenodd" d="M32 8 L55 51 H43.5 L40.5 44 H23.5 L20.5 51 H9 Z M32 22 L37.5 35 H26.5 Z"/>
+  <!-- foundation line -->
+  <rect x="9" y="55" width="46" height="3.5" rx="1.75" fill="url(#gold)"/>
+</svg>

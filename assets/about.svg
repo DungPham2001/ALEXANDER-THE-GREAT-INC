@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 700" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#14305f"/><stop offset="1" stop-color="#0a1a38"/></linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f3d58b"/><stop offset="1" stop-color="#b98a2e"/></linearGradient>
+  </defs>
+  <rect width="800" height="700" fill="url(#bg)"/>
+  <g stroke="#ffffff" stroke-opacity=".06">
+    <path d="M0 100H800M0 200H800M0 300H800M0 400H800M0 500H800M0 600H800M100 0V700M200 0V700M300 0V700M400 0V700M500 0V700M600 0V700M700 0V700"/>
+  </g>
+  <!-- blueprint building -->
+  <g fill="none" stroke="url(#gold)" stroke-width="4">
+    <rect x="260" y="150" width="280" height="420"/>
+    <path d="M260 250H540M260 350H540M260 450H540M350 150V570M450 150V570"/>
+    <path d="M230 570H570"/>
+    <rect x="370" y="480" width="60" height="90"/>
+  </g>
+  <g fill="#f3d58b" opacity=".85">
+    <rect x="280" y="180" width="50" height="50"/><rect x="470" y="180" width="50" height="50"/>
+    <rect x="370" y="270" width="60" height="60" opacity=".6"/>
+    <rect x="280" y="370" width="50" height="50"/><rect x="470" y="370" width="50" height="50"/>
+  </g>
+  <!-- key -->
+  <g transform="translate(560 90) rotate(25)" fill="none" stroke="url(#gold)" stroke-width="10" stroke-linecap="round">
+    <circle cx="0" cy="0" r="36"/><path d="M36 0H170M130 0V28M160 0V22"/>
+  </g>
+  <text x="400" y="640" text-anchor="middle" font-family="Georgia, serif" font-size="30" letter-spacing="8" fill="#f3d58b">MANAGE · LEASE · OPERATE</text>
+</svg>
